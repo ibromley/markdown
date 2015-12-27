@@ -1,0 +1,30 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "description": "Realtime markdown viewer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibromley/markdown.git"
+  },
+  "keywords": [
+    "markdown",
+    "realtime",
+    "sharejs"
+  ],
+  "author": "Iain Bromley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibromley/markdown/issues"
+  },
+  "homepage": "https://github.com/ibromley/markdown#readme",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "redis": "^2.4.2",
+    "share": "^0.6.3"
+  }
+}
